@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
 	
-    max-width: 100vw;
+    max-width: 1000vw;
 	min-height: 100vh;
 	
 	background-color: #0F0F0F;
@@ -23,6 +23,17 @@ body {
 	background-image: url("background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 10000em;
 }
 
 a:link {
@@ -340,7 +351,7 @@ div.video-view div.video-thumbnail {
 
 div.video-view a.video-title {
 	display: -webkit-box;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-line-clamp: 1;
 	
 	overflow: hidden;
@@ -351,7 +362,7 @@ div.video-view a.video-title {
 
 div.video-view span.video-description {
     display: -webkit-box;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-line-clamp: 2;
 	
     overflow: hidden
